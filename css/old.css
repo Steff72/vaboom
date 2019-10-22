@@ -1,0 +1,74 @@
+body {
+  overflow-x: hidden;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/alexander-kunze-uLh71gTmZ4g-unsplash.jpg');
+  background-size: cover;
+  background-position-y: 75%;
+}
+
+.carousel-image-2 {
+  background: url('../img/denys-nevozhai-guNIjIuUcgY-unsplash.jpg');
+  background-size: cover;
+  background-position-y: 75%;
+}
+
+.carousel-image-3 {
+  background: url('../img/jeff-golenski-rUcZathUF58-unsplash.jpg');
+  background-size: cover;
+  background-position-y: 75%;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/sean-o-KMn4VEeEPR8-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.light-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#page-header {
+  height: 250px;
+  background: url('../img/sean-o-KMn4VEeEPR8-unsplash.jpg');
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #333;
+  text-decoration: none;
+}
+
+#main-footer {
+  background: url('../img/sean-o-KMn4VEeEPR8-unsplash.jpg');
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #showcase h1 {
+    font-size: 3rem;
+  }
+}
