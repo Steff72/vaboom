@@ -52,3 +52,7 @@ body {
   background: url("../img/sean-o-KMn4VEeEPR8-unsplash.jpg");
   background-size: 100% 100%;
   color: #fff; }
+
+@media (max-width: 768px) {
+  #showcase h1 {
+    font-size: 4rem; } }
